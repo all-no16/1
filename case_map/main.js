@@ -43,7 +43,7 @@ format: new ol.format.GeoJSON()
 });
 
 var map = new ol.Map({
-  layers: [baseLayer, dataLayer],
+  layers: [baseLayer,dataLayer],
   target:'map',
   view: appView
 });
